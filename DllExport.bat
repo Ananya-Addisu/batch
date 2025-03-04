@@ -1,10 +1,4 @@
 @echo off
-:: Copyright (c) 2016-2018  Denis Kuzmin [ entry.reg@gmail.com ] :: github.com/3F
-:: https://github.com/3F/DllExport
-:: ---
-:: Based on hMSBuild logic and includes GetNuTool core.
-:: https://github.com/3F/hMSBuild
-:: https://github.com/3F/GetNuTool
 setlocal enableDelayedExpansion
 set "aa=1.6.1"
 set "wAction="
