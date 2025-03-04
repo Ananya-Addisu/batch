@@ -32,11 +32,9 @@ goto bc
 :bb
 echo.
 @echo DllExport - v1.6.1.51910 [ e6c3d30 ]
-@echo Copyright (c) 2009-2015  Robert Giesecke
-@echo Copyright (c) 2016-2018  Denis Kuzmin [ entry.reg@gmail.com :: github.com/3F ]
+@echo Copyright (c) 2025 Ananya Addisu
 echo.
 echo Distributed under the MIT license
-@echo https://github.com/3F/DllExport
 echo Wizard - based on hMSBuild logic and includes GetNuTool core - https://github.com/3F
 echo.
 @echo.
@@ -359,9 +357,6 @@ exit /B 0
 :bk
 setlocal disableDelayedExpansion 
 @echo off
-:: GetNuTool - Executable version
-:: Copyright (c) 2015-2018  Denis Kuzmin [ entry.reg@gmail.com ]
-:: https://github.com/3F/GetNuTool
 set a7=gnt.core
 set a8="%temp%\%random%%random%%a7%"
 set "ar=%* "
